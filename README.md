@@ -7,6 +7,11 @@
 5.  Evaluate model
 
 
+##   DATASET 
+ The researcher collected secondary data for this study from the Online Shopper Purchasing 
+Intention dataset, available on the University of California, Irvine (UCI) Machine Learning Repository website (Agustyaningrum, et al., 2021). The data carries information connected to customer behaviouron online shopping platforms and comprises records from 12,330 user sessions. The study attributes each session to a specific user over one year to ensure that the data remains unbiased by special events or holidays over an extended period (Hu & Shi, 2024). The dataset having a total of 18 features, consists of 10 numerical and 8 categorical features. 
+   Revenue is the target feature that indicates whether there is a purchase or non-purchase, represented as a Boolean variable. The false value signifies that the customer did not purchase, whereas a true value indicates that a purchase was made. Of the total samples, 10,422 (84.53%) are negative, showing that the customers did not purchase, represented as 0. The remaining 1,908 samples (15.47%) are positive,indicating that the customer made a purchase.
+
 ##   EXPLORATORY DATA ANALYSIS (EDA)
 
    Exploratory Data Analysis (EDA) aims to uncover patterns and relationships in e-commerce datasets to provide better insights into customer behaviour and website usage. The analysis includes statistical measures and distributive statistics, including mean, median, mode, standard deviation, 
