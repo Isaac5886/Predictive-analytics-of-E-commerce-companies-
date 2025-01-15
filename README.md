@@ -6,7 +6,7 @@
 4.   predictive model
 5.  Evaluate model
 
-           ##FEATURE SELECTION
+ ##    FEATURE SELECTION
 
    In the Random Forest Classifier model, the most influential feature is Page Values, with an importance score of 39%. This suggests that the monetary value attributed to each page plays a key role in driving revenue. Next, Product Related_Duration and Exit Rates share an equal importance score of 
 9%.
