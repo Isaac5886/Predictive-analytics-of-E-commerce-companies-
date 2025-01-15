@@ -9,7 +9,7 @@
 
 ##   EXPLORATORY DATA ANALYSIS (EDA)
 
-    Exploratory Data Analysis (EDA) aims to uncover patterns and relationships in e-commerce datasets to provide better insights into customer behaviour and website usage. The analysis includes statistical measures and distributive statistics, including mean, median, mode, standard deviation, 
+   Exploratory Data Analysis (EDA) aims to uncover patterns and relationships in e-commerce datasets to provide better insights into customer behaviour and website usage. The analysis includes statistical measures and distributive statistics, including mean, median, mode, standard deviation, 
 minimum, and maximum values.
   ProductRelated_Duration has the highest mean value of 1194.746220, while Bounce Rates have 
 the lowest mean at 0.022191. The standard deviation for ProductRelated_Duration is the highest at 1913.669288 indicating significant variability in how long customers engage with product pages.
