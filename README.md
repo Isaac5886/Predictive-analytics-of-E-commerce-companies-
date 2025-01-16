@@ -1,11 +1,7 @@
-## showing if a customer will purchase or not
-
-1. Loading Data
-2. Extraordinary Data Analysis 
-3.   Future Engineering 
-4.   predictive model
-5.  Evaluate model
-
+## ABSTRACT
+  This study uses predictive analytics and machine learning to forecast customer purchase behaviour in e-commerce companies based on website visits. Our analysis focuses on the revenue variable, which indicates purchase activity, using a dataset that includes 12,330 customer sessionsconsisting of 18 variables having 10 numerical and 8 categorical variables. 
+  Among the five classification models we tested, the Random Forest Classifier outperformed the others, achieving an accuracy of 89.54% and an AUC-ROC of 0.92, compared to the Support Vector Machine a low-performance accuracy of 83% and an AUC-ROC score of 0.80.
+Key findings show that Page Values substantially influence purchase decisions, providing actionable insights for e-commerce companies to optimise product pages, enhance navigation, target strategies for returning visitors, and maximise marketing campaigns.
 
 ##   DATASET 
  
@@ -100,17 +96,12 @@ customer behaviour and intent to purchase.
 ## RECEIVER OPERATING CHARACTERISTIC - AREA UNDER CURVE (ROC - AUC)
 
   The ROC-AUC (Receiver Operating Characteristic - Area Under Curve) is an analytical tool designed to evaluate the performance of a classification model by depicting the relationship between the True Positive Rate and the False Positive Rate. The AUC evaluates how well the model can accurately classify positive and negative instances.
-  
    The AUC values of the models analysed indicate that the Gradient Boosting Classifier has an AUC of 0.92, represented in blue. Logistic Regression has an AUC of 0.88, shown in red. The Support Vector Machine has an AUC of 0.80, indicated in black. The Decision Tree Classifier has an AUC of 0.74, represented in green, while the Random Forest has an AUC of 0.92, also shown in pink.
- 
-    Gradient Boosting and Random Forest classifiers demonstrate exceptional results, achieving an AUC of 0.92. This indicates strong performance in accurately identifying purchasing customers while minimising false positives, which is crucial for effective marketing strategies.
-  
-    Logistic Regression follows with an AUC of 0.88, indicating solid performance but also room for improvement. It effectively predicts many purchases, though perhaps with minor enhancements needed for certain segments.
+  Gradient Boosting and Random Forest classifiers demonstrate exceptional results, achieving an AUC of 0.92. This indicates strong performance in accurately identifying purchasing customers while minimising false positives, which is crucial for effective marketing strategies.
+   Logistic Regression follows with an AUC of 0.88, indicating solid performance but also room for improvement. It effectively predicts many purchases, though perhaps with minor enhancements needed for certain segments.
   The Support Vector Machine achieved a reasonable AUC of 0.80; however, this score suggests a higher likelihood of misclassifying purchases. Such misclassifications might lead to missed opportunities for interaction since potential customers may not be targeted effectively.
- 
-    The Decision Tree Classifier has the lowest AUC of 0.74 and struggles to distinguish between classes. Its performance can lead to a higher rate of false positives and false negatives, making marketing efforts ineffective.
-  
-    For the e-commerce company, an AUC value above 0.80 is considered good, while values 
+  The Decision Tree Classifier has the lowest AUC of 0.74 and struggles to distinguish between classes. Its performance can lead to a higher rate of false positives and false negatives, making marketing efforts ineffective.
+  For the e-commerce company, an AUC value above 0.80 is considered good, while values 
 exceeding 0.90 are excellent. In this context, it is evident that the Gradient Boosting Classifier performs well, whereas the Decision Tree Classifier needs improvement for better classification.
 
 ## CONCLUSION
