@@ -1,4 +1,4 @@
-9## ABSTRACT
+## ABSTRACT
   This study uses predictive analytics and machine learning to forecast customer purchase behaviour in e-commerce companies based on website visits. Our analysis focuses on the revenue variable, which indicates purchase activity, using a dataset that includes 12,330 customer sessionsconsisting of 18 variables having 10 numerical and 8 categorical variables. 
   Among the five classification models we tested, the Random Forest Classifier outperformed the others, achieving an accuracy of 89.54% and an AUC-ROC of 0.92, compared to the Support Vector Machine a low-performance accuracy of 83% and an AUC-ROC score of 0.80.
 Key findings show that Page Values substantially influence purchase decisions, providing actionable insights for e-commerce companies to optimise product pages, enhance navigation, target strategies for returning visitors, and maximise marketing campaigns.
