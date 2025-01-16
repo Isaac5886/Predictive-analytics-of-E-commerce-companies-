@@ -122,7 +122,7 @@ historical data and user behaviour patterns serves as the bedrock for planning l
   The insights gained from these studies deal with problems like system inefficiencies and 
 provide a foundation for density enhancements in operational efficiency and customer satisfaction.Imposing the encouraged strategies, including record cleaning and developing a dynamic dashboard Real-time monitoring will facilitate a proactive technique for managing customer behaviour and revenue era.
 
-#NOTE
+## NOTE
 
 The diagram and code that I used for the explanation above is on online E_COMPANY.ipynb
 
